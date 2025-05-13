@@ -11,7 +11,7 @@ header {
     width: 800px ;
     margin-left: calc(50% - 400px); 
     margin-top: 30px; 
-    background-color: pink;
+    
 }
 
 header > img {
@@ -20,7 +20,6 @@ float:left;
 
 nav {
  float: right;
-background-color: yellow;
 }
 nav > a {
 color: #333; 
@@ -38,17 +37,60 @@ main {
     margin-left: calc(50% - 400px); 
     margin-top: 60px;
     margin-bottom: 60px; 
-    background-color: aquamarine;
+    
 }
 
 main > div {
     width: 40%;
     float:left;
+    margin-top: 30px;
 }
 
 h1 {
     margin: 0;
+    font-size: 50px;
+    font-weight: normal; 
+
 }
+
+div > p {
+margin: 0;     
+margin-bottom: 40px;
+}
+
+div > p:first-of-type{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+div >p:last-of-type{
+    font-size: 20px;
+}
+
+main > div > div{
+    display: inline-block;
+}
+main a{
+    float: left;
+    background-color: #554485;
+    color: #fff;
+    padding: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 4px solid #554485;
+}
+main a:last-child{
+background-color: #fff;
+color: #554485;
+margin-left: 20px;
+}
+
 
 main > img {
     width: 60%;
